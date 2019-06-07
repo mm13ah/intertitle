@@ -6,6 +6,7 @@ import Divider from '../components/shared/divider';
 import About from '../components/about';
 import Business from '../components/business';
 import Contact from '../components/contact';
+import Footer from '../components/shared/footer';
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Business />
     <Divider />
     <Contact />
+    <Footer />
   </Layout>
 );
 
